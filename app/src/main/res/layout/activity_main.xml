@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- calculator app -->
+    <TextView
+        android:id="@+id/TextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/Platinum"
+        android:text="Meal planner assister"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="265dp"
+        android:layout_height="85dp"
+        android:text="-Best meal suggestion app
+hope you enjoy ur meal of the day!"
+        android:textAlignment="center"
+        android:textColor="@color/Platinum"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!--this is where the user will input the time,content got from Gennotify app-->
+    <EditText
+        android:id="@+id/timeInt"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/Platinum"
+        android:ems="10"
+        android:hint="Enter time of day(e.g 200 1000,1235,5000)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <!-- content got from Gennotify app-->
+    <Button
+        android:id="@+id/SuggestMeal"
+        android:layout_width="347dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Suggest Meal" />
+    <!--content got from Calculator app and Gennotify app -->
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="492dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/Platinum"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <!--content used from calculator app and gennotify app -->
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="350dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textAlignment="center" />
+    <!-- content used from calculator app-->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="350dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+
+
+</LinearLayout>

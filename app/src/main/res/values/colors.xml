@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Platinum">#E5E4E2</color>
+    <color name="Deeppeach">#FFCBA4</color>
+    <color name="StainlessSteelGray">#99A3A3</color>
+</resources>
