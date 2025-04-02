@@ -7,7 +7,7 @@
 
 ## Links
 - **GitHub Repository**:https://github.com/VCSTDN2024/imad5112-assignment-1-KhayaNkosi.git
-- **YouTube Video**: [YouTube Video Link]
+- **YouTube Video**:https://youtu.be/k7lhz8HXiWg
 
 
 ## Project Overview
@@ -80,10 +80,12 @@ Screenshot 1(![Screenshot 2025-04-02 212146](https://github.com/user-attachments
 
 Screenshot 2(![Screenshot 2025-04-02 213112](https://github.com/user-attachments/assets/546ceb4a-8048-46d8-9465-992758e83aae)
 ng)
-*Caption for screenshot 2: This is the screenshot of the kotlin file that  *
+*Caption for screenshot 2: This is the screenshot of the kotlin file that shows my private var and my findviewbyid*
+Screenshot 3 ![Screenshot 2025-04-02 230010](https://github.com/user-attachments/assets/9ef67b33-42e6-4652-aca9-29f5569cee19)
+*Caption for screenshot 3: This is shows my range 
 
 ### Video Demo:
-A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
+A video showcasing the app's functionality can be viewed here:https://youtu.be/k7lhz8HXiWg.
 
 7. Challenges and Learnings
 ---------------------------
