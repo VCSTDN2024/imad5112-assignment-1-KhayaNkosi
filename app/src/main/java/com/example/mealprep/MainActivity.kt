@@ -1,5 +1,6 @@
 package com.example.mealprep
 //CODE is from gennotify app and calculator app
+//https://www.youtube.com/watch?v=lwTjXJVheK0&pp=ygUSa2luY2FkZSBnYXJhbmdhbmdh
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
