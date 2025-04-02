@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-Meal prep is a mobile application for my course called Higher Certificate in Mobile application and Web Development subject. This application was created using **Kotlin** and **Android Studio**. The app's primary purpose is to [briefly describe the purpose of the app, e.g., provide a task management system, display weather forecasts, etc.].
+Meal prep is a mobile application for my course called Higher Certificate in Mobile application and Web Development subject. This mobile application called Meal prep using **Kotlin** and **Android Studio**. The app's Main purpose is to suggest meal for people who can't decide on what to eat during the day.
 
 The app was developed to meet the requirements of the assignment, which includes creating a functional mobile app and utilizing GitHub for version control and CI/CD automation using GitHub Actions.
 
@@ -21,216 +21,121 @@ The app was developed to meet the requirements of the assignment, which includes
 3. App Purpose and Features
 ---------------------------
 
-```markdown
+
 ## Purpose and Features
 
 ### Purpose:
-The main goal of this app is to [explain the app’s functionality]. 
+The main goal of this app is to suggest meals for users who can't decide on what to eat during the day.The user would put in the time of day then press the suggestion button and it would suggest meal for that specific time . 
 
 ### Key Features:
-- Feature 1: [Description of a feature, e.g., "User login functionality"]
-- Feature 2: [Description of another feature, e.g., "Displaying weather data based on location"]
-- Feature 3: [Optional, another feature, e.g., "Push notifications for reminders"]
+- Feature 1: The key feature would be the user being able to input a time.
+- Feature 2: Another feature that would be in this application would be the meals being displayed after the user has clicked on the suggestion button.
+- Feature 3: My other feature would be the clear button when the user can press the clear button when they put in the wrong input.
+- Feature 4: The other features would be when the user puts in the wrong input it will show that the user has put in the incorrect input and suggest them to fix.
 
-These features aim to provide [what the app aims to achieve, e.g., an easy-to-use platform for managing tasks or organizing personal information].
-```
-
-Why:
-----
-- This section breaks down the specific features and the purpose of the app, giving clarity on the app’s functionality.
-
----
+This features are used to make the application function better and smoothly and make it a bit more user freindly so its easier for users to make the application function.
 
 4. Design Considerations
 ------------------------
 
-```markdown
 ## Design Considerations
 
-The design of the **[App Title]** was based on the following key considerations:
+The design of the **Meal prep application** was based on the following key considerations:
 
 1. **User Experience (UX)**: The app was designed with the goal of providing an intuitive and easy-to-navigate user interface, ensuring a seamless user experience.
    
 2. **Responsiveness**: The app was built to ensure it performs well on different screen sizes, with particular attention to device compatibility.
    
-3. **Simplicity**: The design is minimalistic, focusing on core features without overwhelming the user.
+3. **Simplicity**: The Application was used to be simple for users and help users to understand it better.The buttons were spaced out evenly.
    
-4. **Performance**: Code optimization was considered to ensure fast response times and low battery usage.
-```
+4. **Performance**: The apps performance is quick and it has a low battery usage for the phone.
 
-Why:
-----
-- Highlights the thought process behind the design choices. It demonstrates that students are considering not just the functionality, but also the usability and performance aspects of the app, which is a professional approach.
-
----
 
 5. GitHub and GitHub Actions Utilization
 ----------------------------------------
-```markdown
+
 ## GitHub and GitHub Actions
 
-This project was managed using **GitHub** for version control, where all code changes were committed and pushed regularly. GitHub enabled collaborative coding, allowing me to keep track of changes and maintain project integrity.
+This project thats called Meal Prep was managed using **GitHub** for version control and automation, where all code changes for my meal prep application were committed and pushed regularly. GitHub enabled collaborative coding, allowing me to keep track of changes and maintain project integrity.
 
 ### GitHub Actions:
 I utilized **GitHub Actions** to automate the build and deployment process. This includes:
 
-- Running automated **tests** to ensure the app’s functionality.
+- Running automated tests such as **build.yml** to ensure the app’s functionality.
 - Compiling the app into **APK** and **AAB** files, which are the formats required for distribution.
 - Uploading these build artifacts to GitHub for easy access.
 
 The workflow ensures that my project is automatically built and tested every time I push changes, and it simplifies the process of delivering the final APK/AAB files for submission.
-```
 
-Why:
-----
-- This section educates students on why they should understand version control (GitHub) and automation (GitHub Actions). It shows how they’re adopting industry-standard practices, which is useful for both academic purposes and career development.
-
----
 
 6. Screenshots and App Demo
 ---------------------------
 
-```markdown
 ## Screenshots
 
 ### App Screenshots:
-![Screenshot 1](path_to_screenshot_1.png)
-*Caption for screenshot 1: [Describe the context, e.g., "The home screen of the app showing the task list."]*
+Screenshot 1(![Screenshot 2025-04-02 212146](https://github.com/user-attachments/assets/6fde816f-5108-4171-82b7-56e5c746013d)
+)
+*Caption for screenshot 1: This is the home screen where there is a textview with the heading"Meal Planner assister"*
 
-![Screenshot 2](path_to_screenshot_2.png)
-*Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+Screenshot 2(![Screenshot 2025-04-02 213112](https://github.com/user-attachments/assets/546ceb4a-8048-46d8-9465-992758e83aae)
+ng)
+*Caption for screenshot 2: This is the screenshot of the kotlin file that  *
 
 ### Video Demo:
 A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
-```
-
-Why:
-----
-- Visuals like screenshots or a video link provide concrete evidence of the app’s functionality. This is an easy way for the reader to see what the app looks like and how it operates.
-
----
 
 7. Challenges and Learnings
 ---------------------------
 
-```markdown
 ## Challenges and Learnings
 
 During the development of this project, I encountered several challenges, including:
 
-1. **Challenge 1**: [Briefly describe a challenge you faced, e.g., "Implementing a complex feature like the login system."]
-   - **Solution**: [How you solved the challenge, e.g., "I researched Firebase authentication and successfully integrated it into the app."]
+1. **Challenge 1**: The first challenge I got was linking my suggestion button to my if statement.
+   - **Solution**: I used the private fun checksuggestion to reference the btnSuggestMealType.
    
-2. **Challenge 2**: [Describe another challenge, e.g., "Debugging issues related to Gradle builds."]
-   - **Solution**: [How you solved the challenge.]
+2. **Challenge 2**: I had problems running my app and it showed avd terminated. 
+   - **Solution**: I deleted my android studios and I deleted my avd file and downloaded it again.
+   - 
+3.**Challenge 3**: isEmpty function wasn't working properly 
+   - **Solution**: I used a IsNotEmpty function and it worked properly.
 
-From these challenges, I learned important lessons in debugging, using version control, and automating build processes with GitHub Actions.
-```
-
-Why:
-----
-- Reflecting on challenges and solutions shows growth and problem-solving skills, which are critical for students. It also gives insight into their learning process, which can be valuable to employers.
-
----
+From these challenges, I learn't how to reference properly and how to use error handling.
 
 8. Future Enhancements
 ----------------------
-
-```markdown
 ## Future Enhancements
 
-While the current version of the app provides the core functionality, there are several features that could be added in the future, including:
+While this app still function, the future enchancments that I would like to add this features in the future 
 
-1. **Feature 1**: [Description, e.g., "Allowing users to set up reminders or notifications."]
-2. **Feature 2**: [Description, e.g., "Integrating with a cloud database for storing user data."]
-3. **Feature 3**: [Description, e.g., "Adding a dark mode option for better user experience."]
+1. **Feature 1**: I would add multiple screen's to suggest diffrent meals
+2. **Feature 2**: I would include images in program.When the user inputs a time
 
-These enhancements would improve the app’s usability and make it even more versatile for end-users.
-```
 
-Why:
-----
-- Suggesting future improvements shows forward thinking and a desire to continuously improve. It also demonstrates that the student has a clear vision for the app beyond the current assignment.
+These enhancements would improve the app and makes it more usable and easier for everyone to understand it well
 
----
 
 9. References
 -------------
 
-```markdown
 ## References
 
-1. [Reference 1: E.g., any books, articles, or online resources you used during development.]
-2. [Reference 2: Any relevant papers, documentation, or tutorials.]
-```
+1. Reference 1: This is the reference for the background on the app https://wallpapercave.com/wp/wp1874180.jpg
+2. Reference 2: This is the reference for my xml codes https://www.youtube.com/watch?v=_u8zA1CxxV4&pp=ygUSa2luY2FkZSBnYXJhbmdhbmdh
+3. reference 3: This is the reference for my kotlin codes https://www.youtube.com/watch?v=lwTjXJVheK0&pp=ygUSa2luY2FkZSBnYXJhbmdhbmdh
 
-Why:
-----
-- The References section is critical for academic work to acknowledge the resources and inspiration used during the project.
-
----
 
 10. List of Figures
 -------------------
-
-```markdown
 ## List of Figures
 
-- **Figure 1**: Screenshot of the app's home screen.
-- **Figure 2**: Screenshot of the user profile screen.
-```
+- **Figure 1**: ![Screenshot 2025-04-02 214045](https://github.com/user-attachments/assets/688858c1-b146-4514-bcf8-cbe78890c673)
+- **Figure 2**: ![Screenshot 2025-04-02 215218](https://github.com/user-attachments/assets/50f696d9-59dc-43e4-9ea7-d9ab84088c54)
+- **Figure 3**: ![Screenshot 2025-04-02 215327](https://github.com/user-attachments/assets/538ae121-adad-48be-9064-e321f6c1febe)
 
-Why:
-----
-- This section provides a clear reference to all the images included in the document, which improves readability and helps the lecturer follow along with the visuals.
 
----
 
-11. Disclosure of AI Usage in My Assessment
--------------------------------------------
 
-```markdown
-## Disclosure of AI Usage in My Assessment
 
-## Disclosure of AI Usage in My Assessment
 
-In the development of this project, I have used generative AI tools to assist in various parts of the assignment. Below is a detailed disclosure of where and how these tools were used:
-
-### 1. **Section(s) in which Generative AI was used:**
-- **Question 2.2**: Used AI for brainstorming ideas for the app's features.
-- **Part 5**: Assisted in creating code snippets for setting up GitHub Actions workflows.
-- **Part 3**: Used AI to help improve the grammar and clarity of the report.
-
-### 2. **Name of AI Tool(s) Used:**
-- **ChatGPT** (OpenAI)
-- **GitHub Copilot** (GitHub)
-
-### 3. **Purpose/Intention Behind Use:**
-- **Brainstorming**: Used ChatGPT to generate ideas for the app’s features and functionality.
-- **Meaning Making**: Used AI to clarify some concepts and gain a better understanding of how certain technologies (e.g., GitHub Actions) work.
-- **Initial Investigation**: Utilized AI to conduct research on best practices for Android app development and GitHub Actions setup.
-- **Code Assistance**: GitHub Copilot was used to assist in writing specific parts of the code, such as setting up GitHub Actions and working with Gradle.
-- **Correcting Grammar and Spelling**: ChatGPT helped review and correct the grammar and clarity of my project report.
-
-### 4. **Date(s) in Which Generative AI Was Used:**
-- **Question 2.2**: AI used on **March 5, 2025** for brainstorming feature ideas.
-- **Part 5**: AI used on **March 8, 2025** to help set up GitHub Actions.
-- **Part 3**: AI used on **March 10, 2025** for reviewing the final report.
-
-### 5. **Link to the AI Chat(s) or Screenshots:**
-- **Chat 1 (Brainstorming App Features)**: [Link to the AI conversation/chat](insert_link_here)  
-  *(Screenshot/Link to Chat: AI provided feature ideas for app development)*
-
-- **Chat 2 (GitHub Actions Workflow Setup)**: [Link to the AI conversation/chat](insert_link_here)  
-  *(Screenshot/Link to Chat: AI assisted with configuring GitHub Actions for the project)*
-
-- **Chat 3 (Grammar Review)**: [Link to the AI conversation/chat](insert_link_here)  
-  *(Screenshot/Link to Chat: AI helped in reviewing and correcting the report’s grammar)*
-
-```
-
-Why:
-----
-- This section ensures that students are transparent about using AI tools in their project, promoting academic honesty and adhering to institution guidelines.
-
----
